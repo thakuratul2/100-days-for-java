@@ -7,7 +7,7 @@ class TakingInput {
         System.out.println("Enter a number: ");
         //input in number
         int a = sc1.nextInt();
-        System.out.println("Enter another number: ");
+        System.out.println("Enter the number: ");
         int b = sc1.nextInt();
         int result = a + b;
         System.out.println("The result is: " + result);
