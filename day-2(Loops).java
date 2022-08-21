@@ -10,6 +10,11 @@ class Loops {
             a++;
         }
         //For Loop
-
+        System.out.println("Enter The Number: ");
+        int b = sc.nextInt();
+        int i;
+        for(i=0;i<=b;i++){
+            System.out.println(i);
+        }
     }
 }
