@@ -9,6 +9,7 @@ class TakingInput {
         int a = sc1.nextInt();
         System.out.println("Enter the number: ");
         int b = sc1.nextInt();
+        sc1.close();
         int result = a + b;
         System.out.println("The result is: " + result);
     }

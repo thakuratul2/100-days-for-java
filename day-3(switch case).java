@@ -5,6 +5,7 @@ class Switch{
         Scanner sc = new Scanner(System.in);{
             System.out.println("Enter the Day Number: ");
             int day = sc.nextInt();
+            sc.close();
             //switch case
 
             switch(day){
