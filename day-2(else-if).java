@@ -3,6 +3,7 @@ import java.util.Scanner;
 class Elseif {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        sc.close();
         System.out.println("Enter a Marks :");
         int a = sc.nextInt();
         if(a>=90){

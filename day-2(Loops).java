@@ -5,6 +5,7 @@ class Loops {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter The Number: ");
         int a = sc.nextInt();
+        sc.close();
         while(a<=25){
             System.out.println(a);
             a++;
