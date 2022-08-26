@@ -22,5 +22,10 @@ class Arrays{
         for(int j=0;j<10;j++){
             System.out.println(b[j]);
         }
+        //change the element in the arrays
+
+        String cars[] = {"BMW","Audi","Mercedes","Volvo"};
+        cars[0] = "ATUL";
+        System.out.println(cars[0]);
     }
 }
