@@ -34,6 +34,8 @@ public class BasicCalculator{
                 case 4:
                    sum = num1 * num2;
                    break;
+                default:
+                   System.out.println("Invaild Choice");
             }
             System.out.print("The Answer is: ");
             System.out.println(sum);
