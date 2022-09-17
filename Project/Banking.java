@@ -16,7 +16,7 @@ public class Banking {
         System.out.println("Enter the Balance: ");
         bal = sc.nextLong();
         System.out.println();
-        System.out.println("_______Choice the option to perform_______");
+        System.out.println("_______Choice The Option To Perform_______");
         System.out.println("1. To Check Balance");
         System.out.println("2. To Deposit Money");
         System.out.println("3. To Withdraw Money");
